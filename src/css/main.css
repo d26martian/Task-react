@@ -1,0 +1,116 @@
+:root {
+  --basic-color: #40a28c;
+}
+.container {
+  padding: 2rem;
+}
+li {
+  border: 2px solid #000;
+  padding: 5px 10px;
+}
+.options {
+  display: flex;
+  flex-flow: wrap;
+}
+.options > div {
+  flex-grow: 2;
+  flex: 1 50%;
+  text-align: center;
+}
+.options > div p {
+  margin: 7px;
+  border-radius: 3px;
+  background: var(--basic-color);
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.lookItems {
+  display: flex;
+}
+.lookItems > p {
+  flex-grow: 2;
+  flex: 1 96%;
+  text-align: left;
+  padding: 20px;
+}
+.lookItems > div.listLs {
+  flex-grow: 2;
+  flex: 1 2%;
+  text-align: left;
+  padding: 1rem;
+}
+.lookItems > div.blockLs {
+  flex-grow: 2;
+  flex: 1 2%;
+  text-align: right;
+  padding: 1rem;
+}
+.list {
+  color: red;
+}
+.add {
+  background: #000;
+}
+.wrapTasks {
+  display: flex;
+  flex-flow: wrap;
+  padding-left: 1rem;
+}
+.taskList {
+  flex: 1 30%;
+  background: #eee;
+  margin: 0 1rem 1rem 0;
+}
+.taskList p {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+.lineBot {
+  display: block;
+  height: 2px;
+  width: 83%;
+  margin: 0 auto;
+  background: #ccc;
+}
+form {
+  box-shadow: 5px 5px 5px #eee;
+  padding: 2rem;
+}
+form div label {
+  display: block;
+  color: var(--basic-color);
+  margin-top: 1rem;
+}
+form div input {
+  width: 100%;
+  border: 2px solid #eee;
+  padding: 7px;
+}
+form button {
+  background: var(--basic-color);
+  color: #fff;
+  padding: 7px 15px;
+  border: 0;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 0.5rem;
+}
+.newTasks {
+  display: flex;
+  padding-left: 1rem;
+}
+.formTitle {
+  font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
